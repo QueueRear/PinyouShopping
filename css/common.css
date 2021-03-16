@@ -1,4 +1,68 @@
+/* 声明字体图标 */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?tomleg');
+  src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+    url('../fonts/icomoon.woff?tomleg') format('woff'),
+    url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+/* 版心 */
 .w {
     width: 1200px;
     margin: 0 auto;
+}
+/* 左浮动 */
+.fl {
+    float: left;
+}
+/* 右浮动 */
+.fr {
+    float: right;
+}
+/* 主题色 */
+.style_main {
+    color: #c82000;
+}
+
+/* 快捷导航模块 */
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+}
+.shortcut ul li{
+    float: left;
+}
+/* 选择所有的偶数 li */
+.shortcut .fr ul li:nth-child(even) {
+    height: 12px;
+    margin: 0 15px;
+}
+.arrow-icon::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-left: 6px;
+}
+
+/* 头部模块 */
+.header {
+    position: relative;
+    height: 105px;
+}
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 172px;
+    height: 61px;
+}
+.logo a {
+    display: block;
+    width: 172px;
+    height: 61px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0px;
 }

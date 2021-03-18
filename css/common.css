@@ -152,14 +152,14 @@
     font-size: 16px;
 }
 .dropdown .dd {
-    display: none;
-    height: 450px;
+    /* display: none; */
+    height: 465px;
     background-color: #dd1f1f;
     margin-top: 2px;
 }
 .dropdown .dd li {
     position: relative;
-    height: 30px;
+    height: 31px;
     border-left: 2px solid #dd1f1f;
     padding-left: 8px;
     color: #fff;
@@ -179,7 +179,7 @@
 }
 .dropdown .dd a {
     color: #fff;
-    line-height: 30px;
+    line-height: 31px;
     font-size: 14px;
 }
 .dropdown .dd li:hover a { /* 注意此处的写法，鼠标经过 li 的时候 a 字体变色 */

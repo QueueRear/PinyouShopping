@@ -196,3 +196,191 @@
     top: 25px;
     text-align: center;
 }
+
+/* 猜你喜欢模块 */
+.guess {
+    margin-top: 30px;
+}
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.guess ul {
+    height: 232px;
+    margin-top: 10px;
+    border: 1px solid #ededed;
+}
+.guess li {
+    height: 230px;
+    position: relative;
+    float: left;
+    width: 199.6px;
+    transition: box-shadow 0.5s;
+}
+.guess li:hover {
+    box-shadow: 10px 10px 20px #ddd;
+}
+.guess li:nth-child(-n+5)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 160px;
+    width: 1px;
+    height: 62px;
+    background-color: #ededed;
+}
+.guess_hd {
+    width: 120px;
+    height: 42px;
+    margin: 0 35px;
+    line-height: 21px;
+    font-size: 12px;
+    /* 超出部分不显示 */
+    overflow: hidden;
+}
+.guess .price {
+    margin: 0 35px;
+    color: #df3033;
+    font-size: 18px;
+}
+.guess .price i {
+    font-size: 14px;
+}
+
+/* 有趣区模块 */
+.interest {
+    margin-top: 30px;
+}
+.interest_bd {
+    height: 406px;
+    margin-top: 10px;
+    border: 1px solid #ededed;
+}
+.book {
+    position: relative;
+    height: 404px;
+    width: 405px;
+    padding: 23px;
+    border-right: 1px solid #ededed;
+    background-color: #b8bddd;
+    color: #3b468d;
+    font-size: 18px;
+}
+.book p {
+    font-size: 16px;
+}
+.book img {
+    position: absolute;
+    right: 55px;
+    bottom: 32px;
+}
+.goodthing {
+    position: relative;
+    height: 404px;
+    width: 226px;
+}
+.brandstreet {
+    height: 404px;
+    width: 404px;
+    background-color: #f7f7f7;
+}
+.interest_bd dt {
+    height: 40px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px dashed #ededed;
+    line-height: 40px;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+}
+.interest_bd dd {
+    position: relative;
+    float: left;
+    height: 182px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    padding: 60px 10px;
+    transition: box-shadow 0.5s;
+}
+.interest_bd dd:hover {
+    box-shadow: 5px 5px 10px #ddd;
+}
+.interest_bd dd div h5 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 11px;
+}
+.interest_bd dd div p {
+    font-size: 12px;
+    line-height: 20px;
+}
+.interest_bd dd .black {
+    color: #333;
+}
+.interest_bd dd .red {
+    color: #e60012;
+}
+.interest_bd dd img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.goodthing dd {
+    width: 226px;
+}
+.brandstreet dd {
+    width: 202px;
+}
+.brandstreet #i {
+    width: 404px;
+    padding-left: 50px;
+}
+.brand {
+    width: 162px;
+    height: 406px;
+}
+.brand ul li {
+    float: left;
+    width: 81px;
+    height: 58px;
+    transition: box-shadow 0.5s;
+}
+.brand ul li:nth-child(odd) {
+    border-right: 1px dashed #ededed;
+}
+.brand ul li:nth-child(-n+12) {
+    border-bottom: 1px dashed #ededed;
+}
+.brand ul i {
+    display: inline-block;
+    width: 80px;
+    height: 57px;
+    background-image: url(../upload/brand.png);
+    background-repeat: no-repeat;
+}
+.brand ul li:nth-child(even) i {
+    background-position-x: -86px;
+}
+.brand #i, #ii {
+    background-position-y: 0;
+}
+.brand #iii, #iv {
+    background-position-y: -58px;
+}
+.brand #v, #vi {
+    background-position-y: -116px;
+}
+.brand #vii, #viii {
+    background-position-y: -174px;
+}
+.brand #ix, #x {
+    background-position-y: -232px;
+}
+.brand #xi, #xii {
+    background-position-y: -290px;
+}
+.brand #xiii, #xiv {
+    background-position-y: -348px;
+}

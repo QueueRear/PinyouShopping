@@ -227,19 +227,19 @@
 .service_txt p {
     font-size: 12px;
 }
-#i {
+.footer #i {
     background: url(../images/icons.png) no-repeat -252px -2px;
 }
-#ii {
+.footer #ii {
     background: url(../images/icons.png) no-repeat -255px -53px;
 }
-#iii {
+.footer #iii {
     background: url(../images/icons.png) no-repeat -257px -105px;
 }
-#iv {
+.footer #iv {
     background: url(../images/icons.png) no-repeat -258px -157px;
 }
-#v {
+.footer #v {
     background: url(../images/icons.png) no-repeat -256px -208px;
 }
 .mod_help {

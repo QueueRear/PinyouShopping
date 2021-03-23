@@ -241,7 +241,7 @@
 }
 .guess .price {
     margin: 0 35px;
-    color: #df3033;
+    color: #c82000;
     font-size: 18px;
 }
 .guess .price i {
@@ -316,11 +316,11 @@
     font-size: 12px;
     line-height: 20px;
 }
-.interest_bd dd .black {
+.black {
     color: #333;
 }
-.interest_bd dd .red {
-    color: #e60012;
+.red {
+    color: #c82000;
 }
 .interest_bd dd img {
     position: absolute;
@@ -339,7 +339,8 @@
 }
 .brand {
     width: 162px;
-    height: 406px;
+    height: 404px;
+    overflow: hidden;
 }
 .brand ul li {
     float: left;
@@ -383,4 +384,126 @@
 }
 .brand #xiii, #xiv {
     background-position-y: -348px;
+}
+
+/* 楼层模块 */
+.floor .w {
+    margin-top: 30px;
+}
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c82000;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c82000;
+    font-weight: 400;
+}
+.tab_list {
+    line-height: 30px;
+}
+.tab_list ul li {
+    float: left;
+}
+.tab_list ul li a {
+    margin: 0 15px;
+}
+.box_bd {
+    height: 361px;
+}
+/* 亲儿子子代 */
+.tab_list_item>div {
+    float: left;
+}
+.col_210 {
+    height: 361px;
+    width: 210px;
+    padding-bottom: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 ul {
+    display: inline-block;
+    padding-left: 12px;
+}
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 12px;
+}
+.col_210 div {
+    height: 80px;
+    padding: 25px 0;
+}
+.col_210 div h5 {
+    font-size: 18px;
+    font-weight: normal;
+}
+.col_327 {
+    height: 361px;
+    width: 327px;
+    padding: 0 30px;
+    text-align: center;
+}
+.col_327 div {
+    margin: 38px 0 31px;
+    font-size: 16px;
+    text-align-last: left;
+}
+.col_327 div h5 {
+    font-size: 18px;
+    font-weight: normal;
+}
+.col_221 {
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    height: 361px;
+    width: 221px;
+    font-size: 14px;
+}
+.col_221 h5 {
+    font-size: 16px;
+    font-weight: normal;
+}
+.col_221 div img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.col_221>div {
+    position: relative;
+    height: 180.5px;
+    border-bottom: 1px solid #ededed;
+    padding: 24px 20px;
+}
+.special {
+    padding: 73px 23px;
+    text-align: center;
+    color: #999;
+}
+.special p {
+    margin-bottom: 50px;
+}
+
+/* 家用电器模块 */
+.jiadian .col_327 {
+    background-color: #aed6d8;
+    color: #066c7d;
+}
+
+/* 手机通讯模块 */
+.shouji .col_327 {
+    background-color: #c6e8b6;
+    color: #4c852a;
+}
+
+/* 电脑办公模块 */
+.diannao .col_327 {
+    background-color: #d7aac9;
+    color: #874d75;
 }

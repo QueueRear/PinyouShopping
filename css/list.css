@@ -1,3 +1,6 @@
+.nav {
+    overflow: hidden;
+}
 .sk {
     position: absolute;
     left: 190px;
@@ -28,4 +31,10 @@
 .sk_con ul li:last-child a::after {
     content: '\e91e';
     font-family: 'icomoon';
+}
+
+/* 列表页主体 */
+.sk_bd ul li{
+    width: 290px;
+    height: 460px;
 }

@@ -34,7 +34,106 @@
 }
 
 /* 列表页主体 */
-.sk_bd ul li{
+.sk_hd  {
+    height: 120px;
+    background: url(../images/list_bg.png) no-repeat 0 -1px;
+    text-align: center;
+}
+.sk_hd .title {
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #c82000;
+}
+.sk_hd .rush_buy {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.sk_hd .rush_buy .line{
+    display: inline-block;
+    vertical-align: middle;/* 与文字居中对齐 */
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+}
+.sk_hd .rush_buy span {
+    padding: 0 20px;
+    color: black;
+}
+.sk_bd {
+    margin-top: 20px;
+    margin-bottom: 284px;
+}
+.sk_bd ul li {
     width: 290px;
     height: 460px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:nth-child(4n) {/* 倍数为4的li不需要加右边距*/
+    margin-right: 0;
+}
+.sk_bd ul li img {
+    overflow: hidden;
+}
+.sk_bd ul li .con {
+    padding: 0 10px 10px;
+}
+.sk_bd ul li .product {
+    height: 50px;
+    font-size: 14px;
+    color: #666;
+}
+.sk_bd ul li .price {
+    font-size: 14px;
+}
+.sk_bd ul li .price i {
+    font-size: 24px;
+}
+.sk_bd ul li .price .cur {
+    display: inline-block;
+    color: #c82000;
+}
+.sk_bd ul li .price .ori {
+    display: inline-block;
+    margin-left: 5px;
+    text-decoration: line-through;
+    color: #a4a4a4;
+}
+.sk_bd ul li .sale {
+    font-size: 14px;
+    color: #666;
+}
+.sk_bd ul li .sale i {
+    font-size: 16px;
+    color: #c82000;
+}
+.sk_bd ul li .sale .bar {
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #c82000;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.sk_bd ul li .sale .bar .bar_in {
+    width: 87%;
+    height: 100%;
+    background-color: #c82000;
+    transition: all .3s;
+}
+.sk_bd ul li:hover .sale .bar .bar_in {
+    width: 100%;
+}
+.sk_bd ul li:hover {
+    border-color: #c82000;
+}
+.sk_bd ul li button {
+    width: 100%;
+    height: 49px;
+    background-color: #c82000;
+    font-size: 20px;
+    color: #fff;
 }
